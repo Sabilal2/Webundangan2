@@ -1,0 +1,450 @@
+
+body {
+    background-image: url('1178.jpg'); /* Gantilah dengan URL gambar latar belakang yang sesuai */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; /* Ini akan membuat gambar latar belakang tetap ketika scrolling */
+    background-repeat: no-repeat;
+}
+
+
+
+.welcome22, .welcome22 h1 {
+    font-family: 'Fuggles', cursive; /* Gantilah 'NamaFont' dengan nama font yang Anda inginkan */
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: #000000;
+    font-size: 40px; /* Ukuran font sesuaikan dengan keinginan Anda */
+}
+
+.welcome22 h1 {
+    font-size: 40px; /* Ukuran font untuk elemen h1 */
+}
+
+.welcome22 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: #333333;
+    font-family: 'Fuggles', cursive;
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    
+}
+
+
+.welcome2 {
+    width: 40%;
+    height: 40%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/* Ganti ukuran gambar sesuai dengan ukuran elemen .welcome2 */
+.welcome2 img.rounded-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%; /* Membuat gambar menjadi lingkaran yang sama dengan elemen .welcome2 */
+    object-fit: cover; /* Untuk memastikan gambar diisi dengan baik dalam elemen lingkaran */
+}
+
+
+
+ /* Tombol Dasar */
+/* Gaya Tombol Dasar */
+.btn {
+    background-color: #e5e6e7;
+    color: #000000;
+    padding: 10px 20px;
+    margin-top: -4px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none; /* Menghilangkan garis bawah default pada tautan */
+    transition: background-color 0.3s ease; /* Efek transisi pada latar belakang saat hover */
+}
+
+.btn:hover {
+    background-color: #90ff74; /* Latar belakang berubah saat tombol di-hover */
+}
+
+/* Gaya Tombol Besar */
+.btn-lg {
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+/* Gaya Teks */
+.li {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*halaman Pertama*/
+.welcome-container {
+    position: fixed; /* Membuat elemen tetap di tempatnya */
+    top: 0;
+    left: 0;
+    width: 100%; /* Mengisi seluruh lebar layar */
+    height: 100%; /* Mengisi seluruh tinggi layar */
+    background-image: url('bingkai-undangan-pernikahan-png-18.png');
+    background-size: cover; /* Mengisi seluruh latar belakang dengan gambar */
+    background-position: center center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #ffffff; /* Misalnya, warna merah (#FF0000) */
+    margin: 10px 0;
+}
+
+
+
+
+/* Gaya dasar halaman */
+/* Gaya dasar halaman */
+
+
+/* Gaya navbar offcanvas */
+.offcanvas {
+    position: fixed;
+    top: 0;
+    right: -350px; /* Menyembunyikan navbar di awal */
+    width: 250px;
+    height: 100%;
+    background-color: #525252;
+    padding: 20px;
+    background-color: rgba(82, 82, 82, 0.7); /* Ubah warna dan tingkat transparansi di sini */
+    transition: right 0.3s ease;
+}
+
+.offcanvas ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; /* Menyelaraskan teks ke kiri */
+}
+
+.offcanvas li {
+    margin-bottom: 10px;
+    text-align: left; /* Menyelaraskan teks ke kiri */
+}
+
+.offcanvas a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.close-navbar-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: rgb(255, 1, 1);
+    cursor: pointer;
+}
+
+/* Gaya tombol untuk membuka navbar offcanvas */
+.open-navbar-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+    color: rgb(0, 0, 0); /* Warna tombol ketika tidak diklik */
+}
+
+.open-navbar-btn.clicked {
+    background-color: #ffffff; /* Warna tombol ketika diklik */
+}
+
+/* Konten utama halaman */
+
+/*beranda pernikahan*/
+
+/* CSS untuk konten */
+#beranda-pernikahan .kawin-container {
+    background-image: url('pexels-eberhard-grossgasteiger-844297.jpg'); /* Ganti 'nama-file-gambar-anda.jpg' dengan nama file gambar yang ingin Anda gunakan */
+    background-size: cover; /* Untuk memastikan gambar mencakup seluruh area elemen */
+    background-position: center; /* Untuk mengatur posisi gambar di tengah elemen */
+    background-repeat: no-repeat; /* Untuk menghindari pengulangan gambar jika gambar terlalu kecil */
+    background-repeat: no-repeat;
+    /* Tambahkan properti lain sesuai kebutuhan seperti warna teks dan lainnya */
+}
+
+
+
+/* CSS untuk foto Kaesang dan Erina */
+/* CSS untuk foto Kaesang dan Erina */
+.kawin-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.kawin-container > div {
+    flex: 1;
+    padding: 20px;
+    border: 3px solid #ffffffc4;
+    background-color: #ffffffc4;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.712);
+}
+
+.kawin-content {
+    display: flex;
+    align-items: center;
+}
+
+.kawin-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Ubah dari 60% ke 50% agar lebih bulat */
+    margin-right: 0; /* Hapus margin kanan untuk responsivitas *//
+}
+
+/* Penyelarasan teks ke kanan */
+.kawin-content p {
+    font-family: 'Lilita One', cursive;
+    font-family: 'Roboto Serif', serif;
+    font-size: 19px;
+    line-height: 1.5;
+    margin: 10px 0;
+    padding: 0;
+    text-align: left; /* Pusatkan teks secara horizontal */
+}
+
+
+
+.small-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0; /* Tambahkan spasi atas dan bawah */
+    border: 4px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+
+/* CSS untuk teks */
+h1, h2, p {
+    color: #000000; /* Warna teks */
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+/* CSS untuk teks dalam elemen <p> */
+p {
+    font-family: 'Lilita One', cursive;
+font-family: 'Roboto Serif', serif;
+    font-size: 19px; /* Ukuran font */
+    line-height: 1.5; /* Jarak antara baris */
+    margin: 10px 0; /* Margin atas dan bawah */
+    padding: 0 20px; /* Padding kiri dan kanan */
+    text-align: left; /* Menyelaraskan teks ke kanan */
+}
+
+
+
+
+
+.informasi-pernikahan {
+    border: 2px solid #ffffff; /* Tambahkan border */
+    padding: 20px; /* Beri ruang di sekitar isi informasi */
+    border-radius: 10px; /* Tambahkan sudut bulat pada box */
+    background-color: #f0f0f0; /* Warna latar belakang */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+    text-align: center; /* Pusatkan konten secara horizontal */
+}
+
+.informasi-pernikahan h2 {
+    font-size: 24px; /* Ukuran font untuk judul */
+    margin-bottom: 10px; /* Spasi bawah antara judul dan isi */
+}
+
+.informasi-pernikahan p {
+    font-size: 18px; /* Ukuran font untuk teks */
+    margin: 10px 0; /* Spasi atas dan bawah antara setiap paragraf */
+    text-align: center; /* Pusatkan teks secara horizontal */
+}
+.informasi-pernikahan {
+    background-image: url('bingkai-undangan-pernikahan-png-18.png'); /* Ganti 'nama-file-gambar-anda.jpg' dengan nama file gambar yang ingin Anda gunakan */
+    background-size: cover; /* Untuk memastikan gambar mencakup seluruh area elemen */
+    background-position: center; /* Untuk mengatur posisi gambar di tengah elemen */
+    background-repeat: no-repeat; /* Untuk menghindari pengulangan gambar jika gambar terlalu kecil */
+    /* Tambahkan properti lain sesuai kebutuhan seperti warna teks dan lainnya */
+}
+
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.countdown-item {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.countdown-item span {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.countdown-item span:last-child {
+    font-size: 24px;
+}
+
+/* Warna dan gaya unik */
+#days {
+    color: #f39c12;
+}
+
+#hours {
+    color: #e74c3c;
+}
+
+#minutes {
+    color: #3498db;
+}
+
+#seconds {
+    color: #2ecc71;
+}
+
+
+
+/* CSS untuk kotak wedding video */
+#wedding-video {
+  
+    background-size: cover; /* Memastikan gambar latar belakang mencakup seluruh area */
+    background-position: center center; /* Menengahkan gambar latar belakang */
+    text-align: center;
+    padding: 40px;
+    min-height: 0; /* Membuat tinggi minimum menjadi 0 untuk membuat kotak menjadi persegi panjang */
+    box-sizing: border-box;
+    border: 4px solid #000000ee; /* Tambahkan border sesuai kebutuhan */
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Warna latar belakang dengan tingkat transparansi */
+}
+
+
+#wedding-video h2 {
+    font-size: 24px; /* Ukuran font untuk judul */
+    margin-bottom: 10px; /* Spasi bawah antara judul dan isi */
+}
+
+#wedding-video .wedding-video-description {
+    font-size: 18px; /* Ukuran font untuk deskripsi video */
+    margin: 10px 0; /* Spasi atas dan bawah antara teks */
+    text-align: center; /* Pusatkan teks secara horizontal */
+}
+
+#wedding-video .video-container {
+    max-width: 800px; /* Lebar maksimum kotak video */
+    margin: 0 auto; /* Pusatkan kotak video di tengah */
+    overflow: hidden; /* Sembunyikan konten video yang keluar dari kotak */
+    border-radius: 10px; /* Tambahkan sudut bulat pada kotak video */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+}
+
+#wedding-video video {
+    width: 100%; /* Gunakan lebar 100% dari kotak video */
+    height: auto; /* Tinggi otomatis sesuai dengan rasio aspek video */
+}
+
+#wedding-video video {
+    width: 100%;
+    height: auto;
+    mute: true; /* Menonaktifkan suara pada video */
+}
+
+
+/* CSS awal untuk "Tentang Kami" */
+/* CSS awal untuk "Tentang Kami" */
+#tentang-kami {
+    background-image: url('pexels-pixabay-414660.jpg');
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#tentang-kami p {
+    text-align: left;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Roboto Serif', serif;
+}
+
+
+
+/* Elemen audio */
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+/* Responsivitas untuk layar yang lebih kecil */
+@media (max-width: 768px) {
+    #tentang-kami {
+        padding: 20px; /* Mengurangi padding untuk layar yang lebih kecil */
+    }
+
+    #tentang-kami p {
+        text-align: center; /* Pusatkan teks secara horizontal pada layar yang lebih kecil */
+    }
+
+    /* Membuat teks dalam elemen h2 berjalan dari atas ke bawah */
+    #tentang-kami h2 {
+        writing-mode: vertical-rl; /* Menyebabkan teks berjalan dari atas ke bawah */
+        text-orientation: upright; /* Membuat teks tetap tegak */
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    /* Ubah gaya CSS sesuai kebutuhan responsivitas pada layar kecil di sini */
+    .kawin-content img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .small-image {
+        width: 80px;
+        height: 80px;
+    }
+}

@@ -1,0 +1,68 @@
+/* Gaya untuk kontainer utama */
+.kawin-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Gaya untuk judul */
+.kawin-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'DM Serif Display', serif;
+}
+
+/* Gaya untuk label (kiri) */
+.kawin-container label {
+    display: block;
+    font-size: 20px; /* Diperbarui ukuran font label */
+    margin-bottom: 10px; /* Spasi bawah yang lebih sedikit */
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+/* Gaya untuk input teks dan kotak pemilihan */
+.kawin-container input[type="text"],
+.kawin-container select,
+.kawin-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 15px; /* Spasi bawah yang lebih sedikit */
+}
+
+/* Gaya untuk tombol */
+.kawin-container button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.kawin-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Media queries untuk responsif */
+@media screen and (max-width: 768px) {
+    .kawin-container label,
+    .kawin-container input[type="text"],
+    .kawin-container select,
+    .kawin-container textarea,
+    .kawin-container button[type="submit"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
